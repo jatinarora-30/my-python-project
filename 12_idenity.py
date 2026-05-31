@@ -1,0 +1,12 @@
+a=8
+b=9
+ans=a-b**2
+print(ans)
+print()
+a=288
+b=578
+ans=a**2-b**2
+print(ans)
+print()
+ans=(a-b)*(a+b)
+print(ans)
