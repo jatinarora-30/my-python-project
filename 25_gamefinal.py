@@ -10,7 +10,13 @@ while play_again=="yes":
 
  for round_number in range (1,4):
      print(f" ROUND NUMBER : {round_number}")
-     user_choice=input(f" user_choice = ").lower()
+     While TRUE:
+          user_choice=input(f" user_choice = ").lower()
+          if user_choice in choices
+           break
+          else:
+             print(f" INVALID CHOICE! PLEASE TRY AGAIN.")
+  
      computer_choice=random.choice(choices)
      print(f" COMPUTER CHOICE = {computer_choice} ")
      if user_choice==computer_choice:
